@@ -1,0 +1,7 @@
+{
+  "port": 8080,
+  "address": "",
+  "database": "/database/filebrowser.db",
+  "root": "/srv",
+  "authMethod": "native"
+}
