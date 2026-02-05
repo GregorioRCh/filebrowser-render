@@ -1,7 +1,17 @@
 {
   "port": 8080,
-  "address": "",
-  "database": "/database/filebrowser.db",
-  "root": "/srv",
-  "authMethod": "native"
+  "baseURL": "",
+  "address": "0.0.0.0",
+  "log": "stdout",
+  "database": "/database.db",
+  "root": "/data",
+  "username": "admin",
+  "password": "AdminFiles",
+  "signup": false,
+  "createUserDir": false,
+  "defaults": {
+    "scope": "/data",
+    "locale": "es",
+    "viewMode": "list"
+  }
 }
